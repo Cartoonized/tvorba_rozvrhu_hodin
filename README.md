@@ -1,5 +1,5 @@
 # Popis programu
-Tento program tvoří rozvrhy hodin pro vysoukou školu ČVUT pro děčínské pracoviště. Program tvoří maximální počet rozvrhů hodin, které dokáže vytvořit. Po vytvoření se rozvrhy vypisují do gui, kde uživatel má možnost si vytvořené rozvrhy prohlížet.
+Tento program tvoří rozvrhy hodin pro ČVUT FJFI v Děčíně. Program tvoří maximální počet rozvrhů hodin, které dokáže vytvořit. Po vytvoření se rozvrhy vypisují do GUI, kde uživatel má možnost si vytvořené rozvrhy prohlížet.
 
 ## Vstupní data
 Program čerpá data zapsaná v 7 vstupních souborech formátu CSV nebo JSON:
