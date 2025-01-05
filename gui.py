@@ -85,6 +85,7 @@ def Proved_PrevodUpravRozvrhuProMistnostiNaSlovnik(upraveny_rozvrh, seznam_oboru
                 "konec": upraveny_rozvrh[obor][predmet][3] + 8,
                 "vyucujici": seznam_vyucujicich[upraveny_rozvrh[obor][predmet][4]],
                 "mistnost": seznam_mistnosti[upraveny_rozvrh[obor][predmet][5]]})
+
     return rozvrh_slovnik
 
 
@@ -128,7 +129,7 @@ def Vypis_rozvrhu(rozvrh_oboru, canvas_frame, obor_name, index):
     dny = ["Pondělí", "Úterý", "Středa", "Čtvrtek", "Pátek"]
     dny.reverse()
     day_to_index = {day: i for i, day in enumerate(dny)}
-
+    plt.close()
     fig, ax = plt.subplots(figsize=(12, 6))
 
     for i, day in enumerate(dny):
